@@ -1,0 +1,288 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #1f1f1f;
+  color: #fff;
+}
+
+.main{
+  display: flex;
+}
+.sidebar{
+    width: 240px;
+    height: 100vh;
+    background-color: #000000; /* Pure black */
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    left: 0;
+    top: 0;
+  }
+
+
+.logo{
+  img{
+    width: 120px;
+  margin-bottom: 20px;
+  }
+}
+.parttwo{
+  background-color: #282828;
+  border-radius: 10px;
+  margin-top: 20px;
+  display: flex;
+}
+.home{
+  padding-left: 15px;
+  height: 30px;
+  width: 30px;
+  padding-top: 10px;
+}
+.hometext{
+  text-decoration: none;
+  color: #b3b3b3; 
+  margin: 15px 0;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+  font-size: 1.2rem;
+}
+.parthree{
+  display: flex;
+}
+.search{
+  padding-left: 15px;
+  height: 30px;
+  width: 30px;
+  padding-top: 20px;
+}
+
+.searchtext{
+  text-decoration: none;
+  color: #b3b3b3; 
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+  padding-top: 8px;
+  font-size: 1.2rem;
+  margin: 15px 0;
+}
+
+.five{
+  display: flex;
+  margin-top: 40px;
+}
+.create{
+  padding-left: 12.5px;
+  height: 30px;
+  width: 30px;
+}
+.createtext{
+  text-decoration: none;
+  font-size: 15px;
+  padding-left: 40px;
+  padding-top: 5px;
+}
+.five1{
+  display: flex;
+  margin-top: 15px;
+}
+
+.playlist-section {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.playlist-item {
+  font-size: 14px;
+  padding: 5px 0; 
+}
+.install{
+  display: flex;
+}
+.inatallimage{
+  height: 30px;
+  width: 30px;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+.installtext{
+  padding-top: 25px;
+  padding-left: 30px;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+}
+
+.firstrow{
+  
+}
+.firstpic{
+  height: 5vh;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+
+.secondpic{
+  height: 5vh;
+  margin-left: 960px;
+}
+.secrowh{
+  margin-left: 40px;
+  margin-top: 50px;
+}
+
+.secondrow{
+  display: flex;
+  margin-left: 20px;
+}
+
+
+/* Container for Liked Songs section */
+.liked-songs-container {
+  margin-top: 30px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+
+.liked-song-item {
+  display: flex;
+  align-items: center;
+  background-color: #282828;
+  border-radius: 10px;
+  width: 270px;
+  height: 80px;
+  box-sizing: border-box;
+}
+
+
+.liked-song-image {
+  width: 80px;  
+  height: 80px; 
+}
+
+
+.liked-song-text {
+  margin-left: 30px;
+  font-size: 20px;
+}
+
+.thirdrow{
+  margin-left: 20px;
+}
+
+.syml{
+  margin-left: 40px;
+  margin-top: 50px;
+}
+.fourthrow{
+  display: flex;
+
+}
+
+.box-1 {
+  background-color: #282828;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding-left: 20px;
+  padding-top: 20PX;
+  padding-right: 20px;
+}
+
+.box-1 > div {
+  padding-top: 10px;
+}
+
+/* Footer styling */
+/* Footer styling */
+.footer {
+  background-color: #181818;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+.playline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #282828;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+
+.song-image {
+  width: 60px;  
+  height: 60px; 
+  object-fit: cover;
+  border-radius: 8px;
+  margin-right: 20px; 
+}
+
+
+.song-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+
+
+.song-title {
+  font-size: 16px;
+  color: #ffffff;
+  margin: 0;
+  font-weight: bold;
+}
+
+
+.song-artist {
+  font-size: 14px;
+  color: #b3b3b3;
+  margin: 0;
+}
+
+
+
+.middle-image {
+  width: 40%;
+  margin-left: 470px;
+ 
+}
+
+
+.end-image {
+  height: 40px; 
+  
+}
